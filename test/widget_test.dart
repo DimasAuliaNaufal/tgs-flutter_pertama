@@ -107,6 +107,18 @@ print(mahasiswaString);
 
   print(mahasiswafk);
 
+  //null safety
+  // ? ! late
+  // ? = digunakan dia boleh null
+  String? jurusanns;
+  // Untuk di idi nanti
+  //late String jurusan;
+  
+  jurusanns = "Teknik Informatika";
+  // jurusan = "TI";
+  // memaksa untuk dijalankan / yakin ada datanya
+  print(jurusanns.length);
+
 }
 
 
