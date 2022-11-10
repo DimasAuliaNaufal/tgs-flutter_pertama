@@ -96,6 +96,17 @@ print(mahasiswaString);
   print(n);
   var o = hitungNilai3(79, 100);
 
+   //final keyword => imutable / tidak bisa di rubah
+  //const final
+  //const
+  //const String mahasiswa = "beben";
+  //final
+  final mahasiswafk;
+
+  mahasiswafk = "beben";
+
+  print(mahasiswafk);
+
 }
 
 
